@@ -6,7 +6,7 @@
 
     <title>CS1300 Portfolio</title>
 
-    <!-- CSS -->
+    <!-- CSS / Bootstrap. Using 5.0 but referenced 4.0 guide throughout with some minor changes -->
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -20,7 +20,7 @@
 
   <body id="page-top" data-spy="scroll" data-target=".navbar-fixed-top">
     <div id="fix-this" style="overflow-x: hidden">
-      <!-- Navigation -->
+      <!-- Bootstrap Navbar: https://getbootstrap.com/docs/4.0/components/navbar/ -->
       <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
         <div class="container-fluid">
           <a class="navbar-brand" href="#">Persona & StoryBoard</a>
@@ -174,6 +174,7 @@
             </div>
           </div>
           <p>
+            <!-- Bootstrap collapse: https://getbootstrap.com/docs/4.0/components/collapse/-->>
             <button
               id="observation-button"
               onclick="toggleObservationButton()"
